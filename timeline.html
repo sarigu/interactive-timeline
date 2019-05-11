@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Interactive timeline</title>
+  </head>
+  <body>
+    <div id="slidescontainer">
+      <div id="goldenage">
+        <h1>The Golden Age</h1>
+        <br />
+        <p>
+          The superhero always defeats the villain. Clear stylistic distinction
+          between good and evil.
+          <br />
+          Basic sequential images (close to comic strips in newspapers) and
+          straightforward stories.
+          <br />The cartooning was simple. <br />Basic square grid, often more
+          text than images
+        </p>
+        <img id="img1" src="images/goldenage1.png" alt="captain america" />
+        <img id="img2" src="images/goldenage2.png" alt="superman" />
+        <svg id="svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 524">
+          <title>planet1</title>
+          <g id="Moon">
+            <circle class="cls-1" cx="345.5" cy="265.5" r="93.5" />
+            <path
+              class="cls-2"
+              d="M290,266.5A109.46,109.46,0,0,1,344.13,172a93.5,93.5,0,0,0-3.44,186.86A109.4,109.4,0,0,1,290,266.5Z"
+            />
+          </g>
+          <g id="Pattern">
+            <path
+              class="cls-3"
+              d="M467.22,235.24H386.29a8.49,8.49,0,0,0,0,17h80.93a8.49,8.49,0,0,0,0-17Z"
+            />
+            <path
+              class="cls-3"
+              d="M389.81,214.24H353.7a3.79,3.79,0,0,0,0,7.57h36.11a3.79,3.79,0,0,0,0-7.57Z"
+            />
+            <path
+              class="cls-3"
+              d="M360.61,314.61H249.39c-6.31.12-11.39,4.34-11.39,9.54s5.08,9.42,11.39,9.54H360.61c6.31-.12,11.39-4.34,11.39-9.54S366.92,314.73,360.61,314.61Z"
+            />
+            <path
+              class="cls-3"
+              d="M444.22,265.24H363.29a8.49,8.49,0,0,0,0,17h80.93a8.49,8.49,0,0,0,0-17Z"
+            />
+          </g>
+          <g id="Background">
+            <path
+              class="cls-4"
+              d="M608.76,91v-.28h-527V91H0V441H680V91ZM345.5,359A93.5,93.5,0,1,1,439,265.5,93.5,93.5,0,0,1,345.5,359Z"
+            />
+          </g>
+        </svg>
+        <span class="popup">Tooltip text</span>
+      </div>
+      <div id="silverage">
+        <h1>The Silver Age</h1>
+        <br />
+        <p>
+          Historic events (f.e. World War II) called for a change in
+          storytelling. Publishers explored other genres such as horror.
+          <br />
+          Visual styles mimed the themes.
+          <br />
+          An era of artistic experimentation and political supression started as
+          a result of the CCA censorship.
+          <br />
+          Cover images became an artistic represantation of an issues
+          theme/protoganist's state of mind.
+          <br />
+          Took inspiration from past art movements such as Surrealism.
+        </p>
+        <img id="img3" src="images/silverage2.png" alt="" />
+        <img id="img4" src="images/silverage1.png" alt="" />
+      </div>
+
+      <div id="bronzeage">
+        <h1>The Bronze Age</h1>
+        <br />
+        <p>
+          CCA censorship ends after the release of a spiderman comic with a drug
+          topic. <br />
+          The comics dealt with realistic stories/stories of urban life that had
+          no real answer to them.
+          <br />
+          Photorealistic depictions of the urban landscape.
+          <br />Alter ego of superheroes and everyday people get in the focus.
+          <br />Depth of focus and lighting, gave comics a cinematic style.
+        </p>
+        <img id="img5" src="images/bronzeage2.png" alt="" />
+        <img id="img6" src="images/bronzeage1.png" alt="" />
+      </div>
+      <div id="darkage">
+        <h1>The Dark Age</h1>
+        <br />
+        <p>
+          Characters were psychological comples, often dangerously. The line
+          between hero and villain disappeared. <br />
+          The style get darker and plays with lightig, long shadows and deep
+          dark contrasting colors. <br />The night was the main setting. <br />
+          Took inspiration from noir film and the silver age in sense of
+          unnatural angles and disturbing imagery.
+        </p>
+        <img id="img7" src="images/darkage2.png" alt="" />
+        <img id="img8" src="images/darkage3.png" alt="" />
+      </div>
+      <div id="agelessage">
+        <h1>The Ageless Age</h1>
+        <br />
+        <p>
+          Can't be catogorized.
+          <br />
+          Advanced technologies has led to a broad range of illustrative
+          techniques (3D modelling, digital painting etc.) Some stories are even
+          adapted to motion comics.
+          <br />
+          Styles vary drastically depending on nature of the story and choices
+          of the creator.
+          <br />Line between film and comics is thin.
+        </p>
+        <img id="img9" src="images/agelessage1.png" alt="" /><img
+          id="img10"
+          src="images/agelessage2.png"
+          alt=""
+        />
+      </div>
+    </div>
+    <div id="timelinecontainer">
+      <a href="#goldenage">
+        <div id="goldenage-tml"><h2>The Golden Age (1938 - 1950)</h2></div>
+      </a>
+      <a href="#silverage">
+        <div id="silverage-tml"><h2>The Silver Age (1950 - 1971)</h2></div></a
+      >
+      <a href="#bronzeage">
+        <div id="bronzeage-tml"><h2>The Bronze Age (1971 - 1980)</h2></div></a
+      >
+      <a href="#darkage">
+        <div id="darkage-tml"><h2>The Dark Age (1980 - 1993)</h2></div></a
+      >
+      <a href="#agelessage">
+        <div id="agelessage-tml">
+          <h2>The Ageless Age (1003 - Present Day)</h2>
+        </div></a
+      >
+    </div>
+    <script src="timeline.js"></script>
+  </body>
+</html>

@@ -1,0 +1,182 @@
+#slidescontainer {
+  margin: auto;
+  max-width: 50em;
+  max-height: 30em;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  white-space: nowrap;
+}
+
+#slidescontainer * {
+  display: inline-block;
+  color: white;
+}
+
+#slidescontainer div {
+  height: 50.1em;
+  width: 50em;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#slidescontainer p {
+  width: calc(100% - 120px);
+  margin: 20px auto auto 50px;
+  vertical-align: top;
+  white-space: initial;
+  font-size: 0.9em;
+}
+
+#goldenage {
+  background-color: #f9e959;
+}
+
+#silverage {
+  background-color: #a8e0fc;
+}
+
+#bronzeage {
+  background-color: #c9882f;
+}
+#darkage {
+  background-color: black;
+}
+#agelessage {
+  background-color: #c1c1c1;
+}
+
+#img1 {
+  float: left;
+  width: 50%;
+  margin-top: 4em;
+}
+
+#img2 {
+  float: left;
+  width: 35%;
+  margin-top: 1em;
+}
+
+#img3 {
+  float: left;
+  width: 30%;
+  margin-top: 4em;
+}
+
+#img4 {
+  float: left;
+  width: 28%;
+  margin-top: 1em;
+}
+
+#img5 {
+  float: left;
+  width: 30%;
+  margin-top: 4em;
+  transform: rotate(1deg);
+}
+
+#img6 {
+  float: left;
+  width: 28%;
+  margin-top: 1em;
+}
+
+#img7 {
+  float: left;
+  width: 28%;
+  margin-top: 1em;
+}
+
+#img8 {
+  float: left;
+  width: 28%;
+  margin-top: 1em;
+}
+
+#img9 {
+  float: left;
+  width: 38%;
+  margin-top: 1em;
+}
+
+#img10 {
+  float: left;
+  width: 28%;
+  margin-top: 1em;
+}
+
+#timelinecontainer {
+  margin: auto;
+  max-width: 50em;
+  max-height: 5em;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+#timelinecontainer * {
+  display: inline-block;
+  color: white;
+}
+
+#timelinecontainer div {
+  height: 5em;
+  width: 29em;
+}
+
+#goldenage-tml {
+  background-color: #f9e959;
+}
+
+#silverage-tml {
+  background-color: #a8e0fc;
+}
+
+#bronzeage-tml {
+  background-color: #c9882f;
+}
+#darkage-tml {
+  background-color: black;
+}
+#agelessage-tml {
+  background-color: #c1c1c1;
+}
+
+/*///// SVG /////*/
+
+svg {
+  width: 25%;
+}
+
+#svg1 {
+  margin-top: 20em;
+  margin-left: -20em;
+}
+
+#svg1 .cls-1 {
+  fill: #f9e959;
+}
+#svg1 .cls-2 {
+  fill: #f9c700;
+  opacity: 0.5;
+}
+#svg1 .cls-3 {
+  fill: #43b2e6;
+}
+#svg1 .cls-4 {
+  fill: #1b1c2b;
+}
+
+.popup {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  bottom: 100%;
+  left: 50%;
+}

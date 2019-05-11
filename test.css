@@ -1,0 +1,30 @@
+.cls-1 {
+  fill: #f9e959;
+}
+.cls-2 {
+  fill: #43b2e6;
+}
+.cls-3 {
+  fill: #00043b;
+}
+
+* {
+  background-color: orange;
+}
+
+#Pattern {
+  animation: move 10s infinite;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(15em);
+  }
+  to {
+    transform: translateX(-15em);
+  }
+}
+
+svg {
+  width: 20%;
+}
