@@ -173,18 +173,47 @@ svg {
   margin-left: -20em;
 }
 
-#svg1 .cls-1 {
+#svg1 .cls-1,
+#svg2 .cls-1 {
   fill: #f9e959;
 }
-#svg1 .cls-2 {
+#svg1 .cls-2,
+#svg2 .cls-2 {
   fill: #f9c700;
   opacity: 0.5;
 }
-#svg1 .cls-3 {
+#svg1 .cls-3,
+#svg2 .cls-3 {
   fill: #43b2e6;
 }
-#svg1 .cls-4 {
+#svg1 .cls-4,
+#svg2 .cls-4 {
   fill: #1b1c2b;
+}
+
+#svg1 {
+  float: left;
+  margin-top: 5em;
+  margin-left: 2em;
+}
+
+#svg2 {
+  float: left;
+  margin-top: 10em;
+}
+
+#svg1 #Pattern,
+#svg2 #Pattern {
+  animation: move 8s linear infinite;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(15em);
+  }
+  to {
+    transform: translateX(-25em);
+  }
 }
 
 .popup {
@@ -197,4 +226,106 @@ svg {
   padding: 5px 0;
   bottom: 100%;
   left: 50%;
+}
+
+#miniplanet1 .cls-1,
+#miniplanet2 .cls-1,
+#miniplanet3 .cls-1 {
+  fill: #bfbfbf;
+}
+#miniplanet1 .cls-2,
+#miniplanet2 .cls-2,
+#miniplanet3 .cls-2 {
+  fill: #919191;
+  opacity: 0.5;
+}
+#miniplanet1 .cls-3,
+#miniplanet2 .cls-3,
+#miniplanet3 .cls-3 {
+  fill: #8f8f8f;
+}
+#miniplanet1 .cls-4,
+#miniplanet2 .cls-4,
+#miniplanet3 .cls-4 {
+  fill: #1b1c2b;
+}
+
+#miniplanet1 {
+  float: left;
+  margin-left: -10em;
+}
+
+#miniplanet2 {
+  float: left;
+}
+
+#miniplanet3 {
+  float: left;
+}
+
+#miniplanet1 #Pattern,
+#miniplanet2 #Pattern,
+#miniplanet3 #Pattern {
+  animation: moveMini 8s linear infinite;
+}
+
+@keyframes moveMini {
+  from {
+    transform: translateX(1em);
+  }
+  to {
+    transform: translateX(-8em);
+  }
+}
+
+#dust {
+  background-color: orange;
+  width: 1em;
+  height: 5em;
+  float: left;
+  margin-left: -19em;
+  margin-top: 9em;
+  display: none;
+  /*Insert aniamtion stays at last value*/
+}
+
+.blendin {
+  animation: fadein 2s linear;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(5em);
+  }
+}
+
+#infobox {
+  visibility: hidden;
+  width: 5em;
+  height: 5em;
+  background-color: red;
+  margin-left: -50em;
+  margin-top: 25em;
+  opacity: 0;
+  /*animation: showInfo 2s linear;*/
+}
+.show {
+  animation: showInfo 2s linear;
+  animation-delay: 2s;
+}
+
+@keyframes showInfo {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }

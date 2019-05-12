@@ -5,8 +5,9 @@ let timeline = document.querySelector("#timelinecontainer");
 function init() {
   console.log("init");
   slidescontainer.addEventListener("scroll", changeBG);
-  document.querySelector("#svg1").addEventListener("mouseover", displayPopup);
+  //document.querySelector("#svg1").addEventListener("mouseover", displayPopup);
   //timeline.addEventListener("scroll", changeBG2);
+  document.querySelector("#svg2").addEventListener("click", displayModal);
 }
 
 function changeBG(event) {
@@ -42,6 +43,14 @@ function changeBG(event) {
 function displayPopup() {
   console.log("popup");
   document.querySelector(".popup").style.visibility = "visible";
+}
+
+function displayModal() {
+  console.log("dust fall");
+  document.querySelector("#dust").style.display = "block";
+  document.querySelector("#dust").classList.add("blendin");
+  document.querySelector("#infobox").style.visibility = "visible";
+  document.querySelector("#infobox").classList.add("show");
 }
 
 init();
