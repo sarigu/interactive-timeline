@@ -168,52 +168,55 @@ svg {
   width: 25%;
 }
 
-#svg1 {
+#planet1-1 {
   margin-top: 20em;
   margin-left: -20em;
+  display: none;
+  opacity: 0;
 }
 
-#svg1 .cls-1,
-#svg2 .cls-1 {
+#planet1-1 .cls-1,
+#planet1-2 .cls-1,
+#planet1-3 .cls-1 {
   fill: #f9e959;
 }
-#svg1 .cls-2,
-#svg2 .cls-2 {
+#planet1-1 .cls-2,
+#planet1-2 .cls-2,
+#planet1-3 .cls-2 {
   fill: #f9c700;
   opacity: 0.5;
 }
-#svg1 .cls-3,
-#svg2 .cls-3 {
+#planet1-1 .cls-3,
+#planet1-2 .cls-3,
+#planet1-3 .cls-3 {
   fill: #43b2e6;
 }
-#svg1 .cls-4,
-#svg2 .cls-4 {
+#planet1-1 .cls-4,
+#planet1-2 .cls-4,
+#planet1-3 .cls-4 {
   fill: #1b1c2b;
 }
 
-#svg1 {
+#planet1-1 {
   float: left;
   margin-top: 5em;
   margin-left: 2em;
+  display: none;
 }
 
-#svg2 {
+#planet1-2 {
   float: left;
   margin-top: 10em;
+  display: none;
+  opacity: 0;
 }
 
-#svg1 #Pattern,
-#svg2 #Pattern {
-  animation: move 8s linear infinite;
-}
-
-@keyframes move {
-  from {
-    transform: translateX(15em);
-  }
-  to {
-    transform: translateX(-25em);
-  }
+#planet1-3 {
+  float: left;
+  margin-top: 5em;
+  margin-left: 2em;
+  display: none;
+  opacity: 0;
 }
 
 .popup {
@@ -228,44 +231,297 @@ svg {
   left: 50%;
 }
 
-#miniplanet1 .cls-1,
-#miniplanet2 .cls-1,
-#miniplanet3 .cls-1 {
+#miniplanet1-1 .cls-1,
+#miniplanet1-2 .cls-1,
+#miniplanet1-3 .cls-1,
+#miniplanet2-1 .cls-1,
+#miniplanet2-2 .cls-1,
+#miniplanet2-3 .cls-1,
+#miniplanet3-1 .cls-1,
+#miniplanet4-1 .cls-1,
+#miniplanet4-2 .cls-1,
+#miniplanet5-1 .cls-1,
+#miniplanet5-2 .cls-1 {
   fill: #bfbfbf;
 }
-#miniplanet1 .cls-2,
-#miniplanet2 .cls-2,
-#miniplanet3 .cls-2 {
+#miniplanet1-1 .cls-2,
+#miniplanet1-2 .cls-2,
+#miniplanet1-3 .cls-2,
+#miniplanet2-1 .cls-2,
+#miniplanet2-2 .cls-2,
+#miniplanet2-3 .cls-2,
+#miniplanet3-1 .cls-2,
+#miniplanet4-1 .cls-2,
+#miniplanet4-2 .cls-2,
+#miniplanet5-1 .cls-2,
+#miniplanet5-2 .cls-2 {
   fill: #919191;
   opacity: 0.5;
 }
-#miniplanet1 .cls-3,
-#miniplanet2 .cls-3,
-#miniplanet3 .cls-3 {
+#miniplanet1-1 .cls-3,
+#miniplanet1-2 .cls-3,
+#miniplanet1-3 .cls-3,
+#miniplanet2-1 .cls-3,
+#miniplanet2-2 .cls-3,
+#miniplanet2-3 .cls-3,
+#miniplanet3-1 .cls-3,
+#miniplanet4-1 .cls-3,
+#miniplanet4-2 .cls-3,
+#miniplanet5-1 .cls-3,
+#miniplanet5-2 .cls-3 {
   fill: #8f8f8f;
 }
-#miniplanet1 .cls-4,
-#miniplanet2 .cls-4,
-#miniplanet3 .cls-4 {
+#miniplanet1-1 .cls-4,
+#miniplanet1-2 .cls-4,
+#miniplanet1-3 .cls-4,
+#miniplanet2-1 .cls-4,
+#miniplanet2-2 .cls-4,
+#miniplanet2-3 .cls-4,
+#miniplanet3-1 .cls-4,
+#miniplanet4-1 .cls-4,
+#miniplanet4-2 .cls-4,
+#miniplanet5-1 .cls-4,
+#miniplanet5-2 .cls-4 {
   fill: #1b1c2b;
 }
 
-#miniplanet1 {
+#miniplanet1-1 {
   float: left;
-  margin-left: -10em;
+  margin-left: -8em;
+  display: none;
 }
 
-#miniplanet2 {
+#miniplanet1-2 {
   float: left;
+  display: none;
 }
 
-#miniplanet3 {
+#miniplanet1-3 {
   float: left;
+  margin-top: -10em;
+  display: none;
 }
 
-#miniplanet1 #Pattern,
-#miniplanet2 #Pattern,
-#miniplanet3 #Pattern {
+#planet2-1 .cls-1,
+#planet2-2 .cls-1,
+#planet2-3 .cls-1 {
+  fill: #a8e0fc;
+}
+#planet2-1 .cls-2,
+#planet2-2 .cls-2,
+#planet2-3 .cls-2 {
+  fill: #93cefc;
+  opacity: 0.5;
+}
+#planet2-1 .cls-3,
+#planet2-2 .cls-3,
+#planet2-3 .cls-3 {
+  fill: #ffeb34;
+}
+#planet2-1 .cls-4,
+#planet2-2 .cls-4,
+#planet2-3 .cls-4 {
+  fill: #1b1c2b;
+}
+
+#planet2-1 {
+  float: left;
+  margin-top: 5em;
+  margin-left: 2em;
+}
+
+#planet2-3 {
+  float: left;
+  margin-left: 12em;
+}
+
+#miniplanet2-1 {
+  float: left;
+  margin-left: 12em;
+  margin-top: -12em;
+}
+
+#miniplanet2-3 {
+  float: left;
+  margin-top: -20em;
+  margin-left: -1em;
+}
+
+#planet3-1 .cls-1,
+#planet3-2 .cls-1,
+#planet3-3 .cls-1,
+#planet3-4 .cls-1,
+#planet3-5 .cls-1 {
+  fill: #c9882f;
+}
+#planet3-1 .cls-2,
+#planet3-2 .cls-2,
+#planet3-3 .cls-2,
+#planet3-4 .cls-2,
+#planet3-5 .cls-2 {
+  fill: #c9752f;
+  opacity: 0.5;
+}
+#planet3-1 .cls-3,
+#planet3-2 .cls-3,
+#planet3-3 .cls-3,
+#planet3-4 .cls-3,
+#planet3-5 .cls-3 {
+  fill: #c6332a;
+}
+#planet3-1 .cls-4,
+#planet3-2 .cls-4,
+#planet3-3 .cls-4,
+#planet3-4 .cls-4,
+#planet3-5 .cls-4 {
+  fill: #1b1c2b;
+}
+
+#planet3-1 {
+  float: left;
+  margin-top: 5em;
+  margin-left: 2em;
+}
+
+#planet3-2 {
+  float: left;
+  margin-left: -5em;
+}
+
+#planet3-4 {
+  float: left;
+  margin-top: 10em;
+  margin-left: -5em;
+}
+
+#planet3-5 {
+  float: left;
+  margin-top: -2em;
+  margin-left: 5em;
+}
+
+#miniplanet3-1 {
+  float: left;
+  margin-top: -12em;
+  margin-left: -5em;
+}
+
+#planet4-1 .cls-1,
+#planet4-2 .cls-1,
+#planet4-3 .cls-1,
+#planet4-4 .cls-1 {
+  fill: #c1c1c1;
+}
+#planet4-1 .cls-2,
+#planet4-2 .cls-2,
+#planet4-3 .cls-2,
+#planet4-4 .cls-2 {
+  fill: #919191;
+  opacity: 0.5;
+}
+#planet4-1 .cls-3,
+#planet4-2 .cls-3,
+#planet4-3 .cls-3,
+#planet4-4 .cls-3 {
+  fill: #80aca9;
+}
+#planet4-1 .cls-4,
+#planet4-2 .cls-4,
+#planet4-3 .cls-4,
+#planet4-4 .cls-4 {
+  fill: #1b1c2b;
+}
+
+#planet4-2 {
+  float: left;
+  margin-top: 8em;
+  margin-left: 3em;
+}
+
+#planet4-4 {
+  float: left;
+  margin-top: 1em;
+  margin-left: 9em;
+}
+
+#miniplanet4-1 {
+  float: left;
+  margin-top: -10em;
+  margin-left: -30em;
+}
+
+#miniplanet4-2 {
+  float: left;
+  margin-top: -2em;
+}
+
+#planet5-1 .cls-2,
+#planet5-2 .cls-2,
+#planet5-3 .cls-2,
+#planet5-4 .cls-2 {
+  fill: #fff;
+}
+#planet5-1 .cls-1,
+#planet5-2 .cls-1,
+#planet5-3 .cls-1,
+#planet5-4 .cls-1 {
+  opacity: 0.15;
+}
+#planet5-1 .cls-3,
+#planet5-2 .cls-3,
+#planet5-3 .cls-3,
+#planet5-4 .cls-3 {
+  fill: #1b1c2b;
+}
+
+#planet5-1 {
+  float: left;
+  margin-top: 2em;
+}
+
+#planet5-2 {
+  float: left;
+  margin-top: 8em;
+}
+
+#planet5-4 {
+  float: left;
+  margin-top: 5em;
+}
+
+#miniplanet5-1 {
+  float: left;
+  margin-top: 9em;
+  margin-left: -36.4em;
+}
+
+#miniplanet5-2 {
+  float: left;
+  margin-top: 1em;
+  margin-left: -19.4em;
+}
+
+/*#miniplanet1-1 #Pattern,
+#miniplanet1-2 #Pattern,
+#miniplanet1-3 #Pattern {
+  animation: moveMini 8s linear infinite;
+}*/
+
+.fadeinPlanet {
+  animation: fadein 1s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.moveMiniplanet {
   animation: moveMini 8s linear infinite;
 }
 
@@ -275,6 +531,24 @@ svg {
   }
   to {
     transform: translateX(-8em);
+  }
+}
+
+/*#planet1-1 #Pattern,
+#planet1-2 #Pattern {
+  animation: move 8s linear infinite;
+}*/
+
+.movePlanet {
+  animation: move 10s linear infinite;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(12em);
+  }
+  to {
+    transform: translateX(-20em);
   }
 }
 
@@ -290,10 +564,11 @@ svg {
 }
 
 .blendin {
-  animation: fadein 2s linear;
+  animation: blendin 2s linear;
+  animation-fill-mode: forwards;
 }
 
-@keyframes fadein {
+@keyframes blendin {
   0% {
     opacity: 0;
   }
@@ -318,6 +593,7 @@ svg {
 .show {
   animation: showInfo 2s linear;
   animation-delay: 2s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes showInfo {
