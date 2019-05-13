@@ -150,18 +150,39 @@
   background-color: #f9e959;
 }
 
+#goldenage-tml:hover {
+  background-color: #fae52a;
+}
+
 #silverage-tml {
   background-color: #a8e0fc;
+}
+
+#silverage-tml:hover {
+  background-color: #8bd4f8;
 }
 
 #bronzeage-tml {
   background-color: #c9882f;
 }
+
+#bronzeage-tml:hover {
+  background-color: #c2760c;
+}
+
 #darkage-tml {
   background-color: black;
 }
+
+#darkage-tml:hover {
+  background-color: rgba(0, 0, 0, 0.644);
+}
 #agelessage-tml {
   background-color: #c1c1c1;
+}
+
+#agelessage-tml:hover {
+  background-color: #a09f9f;
 }
 
 /*///// SVG /////*/
@@ -175,12 +196,20 @@ svg {
 #planet1-3 .cls-1 {
   fill: #f9e959;
 }
+
+#planet1-1 .cls-1:hover,
+#planet1-2 .cls-1:hover,
+#planet1-3 .cls-1:hover {
+  fill: #f5dd04;
+}
+
 #planet1-1 .cls-2,
 #planet1-2 .cls-2,
 #planet1-3 .cls-2 {
   fill: #f9c700;
   opacity: 0.5;
 }
+
 #planet1-1 .cls-3,
 #planet1-2 .cls-3,
 #planet1-3 .cls-3 {
@@ -305,6 +334,13 @@ svg {
 #planet2-3 .cls-1 {
   fill: #a8e0fc;
 }
+
+#planet2-1 .cls-1:hover,
+#planet2-2 .cls-1:hover,
+#planet2-3 .cls-1:hover {
+  fill: #64c5f5;
+}
+
 #planet2-1 .cls-2,
 #planet2-2 .cls-2,
 #planet2-3 .cls-2 {
@@ -339,10 +375,16 @@ svg {
   margin-top: -29em;
 }
 
+#miniplanet2-2 {
+  float: left;
+  margin-top: -31em;
+  margin-left: -1em;
+}
+
 #miniplanet2-3 {
   float: left;
-  margin-top: -43em;
-  margin-left: -1em;
+  margin-top: -19em;
+  margin-left: 25em;
 }
 
 #planet3-1 .cls-1,
@@ -352,6 +394,14 @@ svg {
 #planet3-5 .cls-1 {
   fill: #c9882f;
 }
+#planet3-1 .cls-1:hover,
+#planet3-2 .cls-1:hover,
+#planet3-3 .cls-1:hover,
+#planet3-4 .cls-1:hover,
+#planet3-5 .cls-1:hover {
+  fill: #c77a0e;
+}
+
 #planet3-1 .cls-2,
 #planet3-2 .cls-2,
 #planet3-3 .cls-2,
@@ -410,6 +460,13 @@ svg {
 #planet4-4 .cls-1 {
   fill: #c1c1c1;
 }
+#planet4-1 .cls-1:hover,
+#planet4-2 .cls-1:hover,
+#planet4-3 .cls-1:hover,
+#planet4-4 .cls-1:hover {
+  fill: #918e8e;
+}
+
 #planet4-1 .cls-2,
 #planet4-2 .cls-2,
 #planet4-3 .cls-2,
@@ -465,6 +522,7 @@ svg {
 #planet5-4 .cls-1 {
   opacity: 0.15;
 }
+
 #planet5-1 .cls-3,
 #planet5-2 .cls-3,
 #planet5-3 .cls-3,
@@ -617,12 +675,13 @@ svg {
 #infobox1 {
   float: left;
   width: 8em;
-  height: 3em;
+  height: 2.5em;
   margin-left: -10em;
   margin-top: 22em;
   background-color: white;
   color: black;
   opacity: 0;
+  padding: 0.5em;
 }
 
 #grounddust1 {
@@ -638,12 +697,13 @@ svg {
 #infobox2 {
   float: left;
   width: 8em;
-  height: 3em;
+  height: 2.5em;
   margin-left: -10em;
   margin-top: 28em;
   background-color: white;
   color: black;
   opacity: 0;
+  padding: 0.5em;
 }
 
 #grounddust2 {
@@ -659,12 +719,13 @@ svg {
 #infobox3 {
   float: left;
   width: 8em;
-  height: 3em;
+  height: 2.5em;
   margin-left: -10em;
   margin-top: 25em;
   background-color: white;
   color: black;
   opacity: 0;
+  padding: 0.5em;
 }
 
 #grounddust3 {
@@ -688,12 +749,13 @@ svg {
 #infobox4 {
   float: left;
   width: 8em;
-  height: 3em;
+  height: 2.5em;
   margin-left: -10em;
   margin-top: 25em;
   background-color: white;
   color: black;
   opacity: 0;
+  padding: 0.5em;
 }
 
 #grounddust4 {
@@ -717,12 +779,13 @@ svg {
 #infobox5 {
   float: left;
   width: 8em;
-  height: 3em;
+  height: 2.5em;
   margin-left: -7em;
   margin-top: 12em;
   background-color: white;
   color: black;
   opacity: 0;
+  padding: 0.5em;
 }
 
 #grounddust5 {
@@ -746,12 +809,13 @@ svg {
 #infobox6 {
   float: left;
   width: 8em;
-  height: 3em;
+  height: 2.5em;
   margin-left: -7em;
   margin-top: 6em;
   background-color: white;
   color: black;
   opacity: 0;
+  padding: 0.5em;
 }
 
 #grounddust6 {
