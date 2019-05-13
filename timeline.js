@@ -14,11 +14,6 @@ function changeBG(event) {
     document.querySelector("#goldenage").getBoundingClientRect().top < scrollPos
   ) {
     //console.log("down");
-    document.querySelector("#goldenage").style.backgroundColor = "#1b1c2b";
-    document.querySelector("#silverage").style.backgroundColor = "#1b1c2b";
-    document.querySelector("#bronzeage").style.backgroundColor = "#1b1c2b";
-    document.querySelector("#darkage").style.backgroundColor = "#1b1c2b";
-    document.querySelector("#agelessage").style.backgroundColor = "#1b1c2b";
 
     showGoldenBG();
     showSilverBG();
@@ -28,11 +23,6 @@ function changeBG(event) {
   } else {
     // console.log("up");
 
-    document.querySelector("#goldenage").style.backgroundColor = "#f9e959";
-    document.querySelector("#silverage").style.backgroundColor = "#a8e0fc";
-    document.querySelector("#bronzeage").style.backgroundColor = "#c9882f";
-    document.querySelector("#darkage").style.backgroundColor = "black";
-    document.querySelector("#agelessage").style.backgroundColor = "#c1c1c1";
     rmvGoldenBG();
     rmvSilverBG();
     rmvBronzeBG();
@@ -42,6 +32,7 @@ function changeBG(event) {
 }
 
 function showGoldenBG() {
+  document.querySelector("#goldenage").style.backgroundColor = "#1b1c2b";
   document.querySelector("#goldenage h1").style.display = "none";
   document.querySelector("#goldenage p").style.display = "none";
   document.querySelector("#img1").style.display = "none";
@@ -73,6 +64,7 @@ function showGoldenBG() {
 }
 
 function rmvGoldenBG() {
+  document.querySelector("#goldenage").style.backgroundColor = "#f9e959";
   document.querySelector("#goldenage h1").style.display = "block";
   document.querySelector("#goldenage p").style.display = "block";
   document.querySelector("#img1").style.display = "block";
@@ -95,6 +87,7 @@ function rmvGoldenBG() {
 }
 
 function showSilverBG() {
+  document.querySelector("#silverage").style.backgroundColor = "#1b1c2b";
   document.querySelector("#silverage h1").style.display = "none";
   document.querySelector("#silverage p").style.display = "none";
   document.querySelector("#img3").style.display = "none";
@@ -126,6 +119,7 @@ function showSilverBG() {
 }
 
 function rmvSilverBG() {
+  document.querySelector("#silverage").style.backgroundColor = "#a8e0fc";
   document.querySelector("#silverage h1").style.display = "block";
   document.querySelector("#silverage p").style.display = "block";
   document.querySelector("#img3").style.display = "block";
@@ -148,6 +142,7 @@ function rmvSilverBG() {
 }
 
 function showBronzeBG() {
+  document.querySelector("#bronzeage").style.backgroundColor = "#1b1c2b";
   document.querySelector("#bronzeage h1").style.display = "none";
   document.querySelector("#bronzeage p").style.display = "none";
   document.querySelector("#img5").style.display = "none";
@@ -177,8 +172,9 @@ function showBronzeBG() {
 }
 
 function rmvBronzeBG() {
+  document.querySelector("#bronzeage").style.backgroundColor = "#c9882f";
   document.querySelector("#bronzeage h1").style.display = "block";
-  document.querySelector("#bronzeage p").style.display = "bloc";
+  document.querySelector("#bronzeage p").style.display = "block";
   document.querySelector("#img5").style.display = "block";
   document.querySelector("#img6").style.display = "block";
   document.querySelector("#planet3-1").style.display = "none";
@@ -201,6 +197,7 @@ function rmvBronzeBG() {
 }
 
 function showDarkBG() {
+  document.querySelector("#darkage").style.backgroundColor = "#1b1c2b";
   document.querySelector("#darkage h1").style.display = "none";
   document.querySelector("#darkage p").style.display = "none";
   document.querySelector("#img7").style.display = "none";
@@ -230,6 +227,7 @@ function showDarkBG() {
 }
 
 function rmvDarkBG() {
+  document.querySelector("#darkage").style.backgroundColor = "black";
   document.querySelector("#darkage h1").style.display = "block";
   document.querySelector("#darkage p").style.display = "block";
   document.querySelector("#img7").style.display = "block";
@@ -253,6 +251,7 @@ function rmvDarkBG() {
 }
 
 function showAgelessBG() {
+  document.querySelector("#agelessage").style.backgroundColor = "#1b1c2b";
   document.querySelector("#agelessage h1").style.display = "none";
   document.querySelector("#agelessage p").style.display = "none";
   document.querySelector("#img9").style.display = "none";
@@ -282,6 +281,7 @@ function showAgelessBG() {
 }
 
 function rmvAgelessBG() {
+  document.querySelector("#agelessage").style.backgroundColor = "#c1c1c1";
   document.querySelector("#agelessage h1").style.display = "block";
   document.querySelector("#agelessage p").style.display = "block";
   document.querySelector("#img9").style.display = "block";
@@ -310,14 +310,32 @@ function displayPopup() {
 }
 
 function displayModal(event) {
-  console.log(event.target.id);
-  if (event.target.id == "hallo") {
-    console.log("jap");
+  console.log(event.target);
+  if (event.target.id == "planet1-1C") {
+    document.querySelector("#dust1").classList.add("blendin");
+    document.querySelector("#infobox1").classList.add("show");
+    document.querySelector("#grounddust1").classList.add("showdust");
+  } else if (event.target.id == "planet1-2C") {
+    document.querySelector("#dust2").classList.add("blendin");
+    document.querySelector("#infobox2").classList.add("show");
+    document.querySelector("#grounddust2").classList.add("showdust");
+  } else if (event.target.id == "planet1-3C") {
+    document.querySelector("#dust3").classList.add("blendin");
+    document.querySelector("#infobox3").classList.add("show");
+    document.querySelector("#grounddust3").classList.add("showdust");
+  } else if (event.target.id == "planet2-1C") {
+    document.querySelector("#dust4").classList.add("blendin");
+    document.querySelector("#infobox4").classList.add("show");
+    document.querySelector("#grounddust4").classList.add("showdust");
+  } else if (event.target.id == "planet2-2C") {
+    document.querySelector("#dust5").classList.add("blendin");
+    document.querySelector("#infobox5").classList.add("show");
+    document.querySelector("#grounddust5").classList.add("showdust");
+  } else if (event.target.id == "planet2-3C") {
+    document.querySelector("#dust6").classList.add("blendin");
+    document.querySelector("#infobox6").classList.add("show");
+    document.querySelector("#grounddust6").classList.add("showdust");
   }
-  document.querySelector("#dust").style.display = "block";
-  document.querySelector("#dust").classList.add("blendin");
-  document.querySelector("#infobox").style.visibility = "visible";
-  document.querySelector("#infobox").classList.add("show");
 }
 
 init();
