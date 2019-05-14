@@ -180,8 +180,8 @@ function rmvBronzeBG() {
   document.querySelector("#planet3-1").style.display = "none";
   document.querySelector("#planet3-2").style.display = "none";
   document.querySelector("#planet3-3").style.display = "none";
-  document.querySelector("#planet4-3").style.display = "none";
-  document.querySelector("#planet5-3").style.display = "none";
+  document.querySelector("#planet3-4").style.display = "none";
+  document.querySelector("#planet3-5").style.display = "none";
   document.querySelector("#miniplanet3-1").style.display = "none";
   document.querySelector("#planet3-1").classList.remove("fadeinPlanet");
   document.querySelector("#planet3-2").classList.remove("fadeinPlanet");
@@ -335,6 +335,58 @@ function displayModal(event) {
     document.querySelector("#dust6").classList.add("blendin");
     document.querySelector("#infobox6").classList.add("show");
     document.querySelector("#grounddust6").classList.add("showdust");
+  } else if (event.target.id == "planet3-1C") {
+    document.querySelector("#dust7").classList.add("blendin");
+    document.querySelector("#infobox7").classList.add("show");
+    document.querySelector("#grounddust7").classList.add("showdust");
+  } else if (event.target.id == "planet3-2C") {
+    document.querySelector("#dust8").classList.add("blendin");
+    document.querySelector("#infobox8").classList.add("show");
+    document.querySelector("#grounddust8").classList.add("showdust");
+  } else if (event.target.id == "planet3-3C") {
+    document.querySelector("#dust9").classList.add("blendin");
+    document.querySelector("#infobox9").classList.add("show");
+    document.querySelector("#grounddust9").classList.add("showdust");
+  } else if (event.target.id == "planet3-4C") {
+    document.querySelector("#dust10").classList.add("blendin");
+    document.querySelector("#infobox10").classList.add("show");
+    document.querySelector("#grounddust10").classList.add("showdust");
+  } else if (event.target.id == "planet3-5C") {
+    document.querySelector("#dust11").classList.add("blendin");
+    document.querySelector("#infobox11").classList.add("show");
+    document.querySelector("#grounddust11").classList.add("showdust");
+  } else if (event.target.id == "planet4-1C") {
+    document.querySelector("#dust12").classList.add("blendin");
+    document.querySelector("#infobox12").classList.add("show");
+    document.querySelector("#grounddust12").classList.add("showdust");
+  } else if (event.target.id == "planet4-2C") {
+    document.querySelector("#dust13").classList.add("blendin");
+    document.querySelector("#infobox13").classList.add("show");
+    document.querySelector("#grounddust13").classList.add("showdust");
+  } else if (event.target.id == "planet4-3C") {
+    document.querySelector("#dust14").classList.add("blendin");
+    document.querySelector("#infobox14").classList.add("show");
+    document.querySelector("#grounddust14").classList.add("showdust");
+  } else if (event.target.id == "planet4-4C") {
+    document.querySelector("#dust15").classList.add("blendin");
+    document.querySelector("#infobox15").classList.add("show");
+    document.querySelector("#grounddust15").classList.add("showdust");
+  } else if (event.target.id == "planet5-1C") {
+    document.querySelector("#dust16").classList.add("blendin");
+    document.querySelector("#infobox16").classList.add("show");
+    document.querySelector("#grounddust16").classList.add("showdust");
+  } else if (event.target.id == "planet5-2C") {
+    document.querySelector("#dust17").classList.add("blendin");
+    document.querySelector("#infobox17").classList.add("show");
+    document.querySelector("#grounddust17 ").classList.add("showdust");
+  } else if (event.target.id == "planet5-3C") {
+    document.querySelector("#dust18").classList.add("blendin");
+    document.querySelector("#infobox18").classList.add("show");
+    document.querySelector("#grounddust18").classList.add("showdust");
+  } else if (event.target.id == "planet5-4C") {
+    document.querySelector("#dust19").classList.add("blendin");
+    document.querySelector("#infobox19").classList.add("show");
+    document.querySelector("#grounddust19").classList.add("showdust");
   }
 }
 

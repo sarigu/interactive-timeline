@@ -427,31 +427,31 @@ svg {
 
 #planet3-1 {
   float: left;
-  margin-top: 5em;
-  margin-left: 2em;
+  margin-top: 2em;
+  margin-left: 0em;
 }
 
 #planet3-2 {
   float: left;
-  margin-left: -5em;
+  margin-left: -1em;
 }
 
 #planet3-4 {
   float: left;
-  margin-top: 1em;
-  margin-left: -5em;
+  margin-top: -17em;
+  margin-left: 17em;
 }
 
 #planet3-5 {
   float: left;
-  margin-top: -2em;
-  margin-left: 5em;
+  margin-top: -27em;
+  margin-left: 37em;
 }
 
 #miniplanet3-1 {
   float: left;
-  margin-top: -12em;
-  margin-left: -5em;
+  margin-top: -20em;
+  margin-left: 5em;
 }
 
 #planet4-1 .cls-1,
@@ -489,25 +489,32 @@ svg {
 
 #planet4-2 {
   float: left;
-  margin-top: 8em;
-  margin-left: 3em;
+  margin-top: -4em;
+  margin-left: 2em;
+}
+
+#planet4-3 {
+  float: left;
+  margin-top: -8em;
+  margin-left: -1em;
 }
 
 #planet4-4 {
   float: left;
-  margin-top: 1em;
-  margin-left: 9em;
+  margin-top: -18em;
+  margin-left: 11em;
 }
 
 #miniplanet4-1 {
   float: left;
-  margin-top: -10em;
+  margin-top: -30em;
   margin-left: -30em;
 }
 
 #miniplanet4-2 {
   float: left;
-  margin-top: -2em;
+  margin-top: -20em;
+  margin-left: 8em;
 }
 
 #planet5-1 .cls-2,
@@ -538,22 +545,23 @@ svg {
 #planet5-2 {
   float: left;
   margin-top: 8em;
+  margin-left: -2em;
 }
 
 #planet5-4 {
   float: left;
-  margin-top: 5em;
+  margin-top: -4em;
 }
 
 #miniplanet5-1 {
   float: left;
-  margin-top: 9em;
-  margin-left: -36.4em;
+  margin-top: -15em;
+  margin-left: -39.4em;
 }
 
 #miniplanet5-2 {
   float: left;
-  margin-top: 1em;
+  margin-top: -5em;
   margin-left: -19.4em;
 }
 
@@ -826,4 +834,398 @@ svg {
   margin-left: -8em;
   margin-top: 7em;
   opacity: 0;
+}
+
+#dust7 {
+  float: left;
+  width: 10%;
+  margin-left: -8.8em;
+  margin-top: 9.5em;
+  opacity: 0;
+}
+
+#infobox7 {
+  float: left;
+  width: 8em;
+  height: 2.5em;
+  margin-left: -9em;
+  margin-top: 21em;
+  background-color: white;
+  color: black;
+  opacity: 0;
+  padding: 0.5em;
+}
+
+#grounddust7 {
+  width: 10%;
+  float: left;
+  width: 8em;
+  height: 4em;
+  margin-left: -9em;
+  margin-top: 22.5em;
+  opacity: 0;
+}
+
+#dust8 {
+  float: left;
+  width: 10%;
+  margin-left: -8.8em;
+  margin-top: 5.5em;
+  opacity: 0;
+}
+
+#infobox8 {
+  float: left;
+  width: 8em;
+  height: 2.5em;
+  margin-left: -9em;
+  margin-top: 17em;
+  background-color: white;
+  color: black;
+  opacity: 0;
+  padding: 0.5em;
+}
+
+#grounddust8 {
+  width: 10%;
+  float: left;
+  width: 8em;
+  height: 4em;
+  margin-left: -9em;
+  margin-top: 18.5em;
+  opacity: 0;
+}
+
+#dust9 {
+  float: left;
+  width: 10%;
+  margin-left: 4em;
+  margin-top: -2.5em;
+  opacity: 0;
+}
+
+#infobox9 {
+  float: left;
+  width: 8em;
+  height: 2.5em;
+  margin-left: -7em;
+  margin-top: 9.5em;
+  background-color: white;
+  color: black;
+  opacity: 0;
+  padding: 0.5em;
+}
+
+#grounddust9 {
+  width: 10%;
+  float: left;
+  width: 8em;
+  height: 4em;
+  margin-left: -9em;
+  margin-top: 11.5em;
+  opacity: 0;
+}
+
+#dust10 {
+  float: left;
+  width: 10%;
+  margin-left: 21em;
+  margin-top: -10.5em;
+  opacity: 0;
+}
+
+#infobox10 {
+  float: left;
+  width: 8em;
+  height: 2.5em;
+  margin-left: 19em;
+  margin-top: 1.5em;
+  background-color: white;
+  color: black;
+  opacity: 0;
+  padding: 0.5em;
+}
+
+#grounddust10 {
+  width: 10%;
+  float: left;
+  width: 8em;
+  height: 4em;
+  margin-left: -9em;
+  margin-top: 2.5em;
+  opacity: 0;
+}
+
+#dust11 {
+  float: left;
+  width: 10%;
+  margin-left: 41em;
+  margin-top: -20.5em;
+  opacity: 0;
+}
+
+#infobox11 {
+  float: left;
+  width: 8em;
+  height: 2.5em;
+  margin-left: 39em;
+  margin-top: -8.5em;
+  background-color: white;
+  color: black;
+  opacity: 0;
+  padding: 0.5em;
+}
+
+#grounddust11 {
+  width: 10%;
+  float: left;
+  width: 8em;
+  height: 4em;
+  margin-left: 39em;
+  margin-top: -7.5em;
+  opacity: 0;
+}
+
+#dust12 {
+  float: left;
+  width: 10%;
+  margin-left: 4em;
+  margin-top: -3em;
+  opacity: 0;
+}
+
+#infobox12 {
+  float: left;
+  width: 8em;
+  height: 2.5em;
+  margin-left: -7em;
+  margin-top: 8.5em;
+  background-color: white;
+  color: black;
+  padding: 0.5em;
+  opacity: 0;
+}
+
+#grounddust12 {
+  width: 10%;
+  float: left;
+  width: 8em;
+  height: 4em;
+  margin-left: -8.5em;
+  margin-top: 9.5em;
+  opacity: 0;
+}
+
+#dust13 {
+  float: left;
+  width: 10%;
+  margin-left: -8.4em;
+  margin-top: 3em;
+  opacity: 0;
+}
+
+#infobox13 {
+  float: left;
+  width: 8em;
+  height: 2.5em;
+  margin-left: -11.5em;
+  margin-top: 13.5em;
+  background-color: white;
+  color: black;
+  padding: 0.5em;
+  opacity: 0;
+}
+
+#grounddust13 {
+  width: 10%;
+  float: left;
+  width: 8em;
+  height: 4em;
+  margin-left: -11.5em;
+  margin-top: 14.5em;
+  opacity: 0;
+}
+
+#dust14 {
+  float: left;
+  width: 10%;
+  margin-left: -8.4em;
+  margin-top: -2em;
+  opacity: 0;
+}
+
+#infobox14 {
+  float: left;
+  width: 8em;
+  height: 2.5em;
+  margin-left: -11.5em;
+  margin-top: 10em;
+  background-color: white;
+  color: black;
+  padding: 0.5em;
+  opacity: 0;
+}
+
+#grounddust14 {
+  width: 10%;
+  float: left;
+  width: 8em;
+  height: 4em;
+  margin-left: -11.5em;
+  margin-top: 11em;
+  opacity: 0;
+}
+
+#dust15 {
+  float: left;
+  width: 10%;
+  margin-left: 15em;
+  margin-top: -11.5em;
+  opacity: 0;
+}
+
+#infobox15 {
+  float: left;
+  width: 8em;
+  height: 2.5em;
+  margin-left: 14.2em;
+  margin-top: 0.5em;
+  background-color: white;
+  color: black;
+  padding: 0.5em;
+  opacity: 0;
+}
+
+#grounddust15 {
+  width: 10%;
+  float: left;
+  width: 8em;
+  height: 4em;
+  margin-left: 37.2em;
+  margin-top: -1.8em;
+  opacity: 0;
+}
+
+#dust16 {
+  float: left;
+  width: 10%;
+  margin-left: -8em;
+  margin-top: 8em;
+  opacity: 0;
+}
+
+#infobox16 {
+  float: left;
+  width: 8em;
+  height: 2.5em;
+  margin-left: -9em;
+  margin-top: 20em;
+  background-color: white;
+  color: black;
+  padding: 0.5em;
+  opacity: 0;
+}
+
+#grounddust16 {
+  width: 10%;
+  float: left;
+  width: 8em;
+  height: 4em;
+  margin-left: -9em;
+  margin-top: 21em;
+  opacity: 0;
+}
+
+#dust17 {
+  float: left;
+  width: 10%;
+  margin-left: -8em;
+  margin-top: 15em;
+  opacity: 0;
+}
+
+#infobox17 {
+  float: left;
+  width: 8em;
+  height: 2.5em;
+  margin-left: -9em;
+  margin-top: 26.5em;
+  background-color: white;
+  color: black;
+  padding: 0.5em;
+  opacity: 0;
+}
+
+#grounddust17 {
+  width: 10%;
+  float: left;
+  width: 8em;
+  height: 4em;
+  margin-left: -9em;
+  margin-top: 27.5em;
+  opacity: 0;
+}
+
+#dust18 {
+  float: left;
+  width: 10%;
+  margin-left: 4.5em;
+  margin-top: -3.2em;
+  opacity: 0;
+}
+
+#infobox18 {
+  float: left;
+  width: 8em;
+  height: 2.5em;
+  margin-left: -6em;
+  margin-top: 9.2em;
+  background-color: white;
+  color: black;
+  padding: 0.5em;
+  opacity: 0;
+}
+
+#grounddust18 {
+  width: 10%;
+  float: left;
+  width: 8em;
+  height: 4em;
+  margin-left: -9em;
+  margin-top: 10.2em;
+  opacity: 0;
+}
+
+#dust19 {
+  float: left;
+  width: 10%;
+  margin-left: 4.5em;
+  margin-top: -3.2em;
+  opacity: 0;
+}
+
+#infobox19 {
+  float: left;
+  width: 8em;
+  height: 2.5em;
+  margin-left: -6em;
+  margin-top: 9.2em;
+  background-color: white;
+  color: black;
+  padding: 0.5em;
+  opacity: 0;
+}
+
+#grounddust19 {
+  width: 10%;
+  float: left;
+  width: 8em;
+  height: 4em;
+  margin-left: -9em;
+  margin-top: 10.2em;
+  opacity: 0;
+}
+
+#txt {
+  text-align: center;
 }
